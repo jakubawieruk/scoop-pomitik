@@ -6,10 +6,10 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jakubawieruk/pomitik/releases/download/v0.1.0/pomitik-x86_64-pc-windows-msvc.zip",
-            "hash": "ceaf97f81fd2039e5384c3717d2383308032351fd372439ffafa393ae26f9556"
+            "hash": "b7d0423e881e494155c093c2478295856d70a07eb9b5d19502196b95af5f019b"
         }
     },
-    "bin": "pomitik.exe",
+    "bin": "tik.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
