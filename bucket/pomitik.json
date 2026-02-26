@@ -1,21 +1,21 @@
 {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A command-line countdown timer with Pomodoro sessions",
     "homepage": "https://github.com/jakubawieruk/pomitik",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jakubawieruk/pomitik/releases/download/v0.1.0/pomitik-x86_64-pc-windows-msvc.zip",
-            "hash": "b7d0423e881e494155c093c2478295856d70a07eb9b5d19502196b95af5f019b"
+  "url": "https://github.com/jakubawieruk/pomitik/releases/download/v0.2.0/pomitik-x86_64-pc-windows-msvc.zip",
+  "hash": "b5ed542058e3af70553bb91e997355d8cfce7fbf8e1fa67167d0a2722bd6838c"
         }
     },
     "bin": "tik.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": {
-                "url": "https://github.com/jakubawieruk/pomitik/releases/download/v$version/pomitik-x86_64-pc-windows-msvc.zip"
-            }
+  "64bit": {
+      "url": "https://github.com/jakubawieruk/pomitik/releases/download/v$version/pomitik-x86_64-pc-windows-msvc.zip"
+  }
         }
     }
 }
